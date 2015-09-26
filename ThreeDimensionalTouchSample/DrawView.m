@@ -3,9 +3,9 @@
 //  ThreeDimensionalTouchSample
 //
 
-#import "UIMaltiTouchView.h"
+#import "DrawView.h"
 
-@implementation UIMaltiTouchView
+@implementation DrawView
 
 - (void)drawRect:(CGRect) rect {
     

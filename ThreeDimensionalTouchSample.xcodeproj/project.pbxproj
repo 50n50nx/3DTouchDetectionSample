@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		F41976361BB55A3600DF9AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41976351BB55A3600DF9AEF /* main.m */; };
 		F41976391BB55A3600DF9AEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41976381BB55A3600DF9AEF /* AppDelegate.m */; };
-		F419763C1BB55A3600DF9AEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419763B1BB55A3600DF9AEF /* ViewController.m */; };
+		F419763C1BB55A3600DF9AEF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419763B1BB55A3600DF9AEF /* MainViewController.m */; };
 		F419763F1BB55A3600DF9AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F419763D1BB55A3600DF9AEF /* Main.storyboard */; };
 		F41976411BB55A3600DF9AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41976401BB55A3600DF9AEF /* Assets.xcassets */; };
 		F41976441BB55A3600DF9AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41976421BB55A3600DF9AEF /* LaunchScreen.storyboard */; };
 		F419764F1BB55A3600DF9AEF /* ThreeDimensionalTouchSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F419764E1BB55A3600DF9AEF /* ThreeDimensionalTouchSampleTests.m */; };
 		F419765A1BB55A3600DF9AEF /* ThreeDimensionalTouchSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F41976591BB55A3600DF9AEF /* ThreeDimensionalTouchSampleUITests.m */; };
-		F41976691BB565D700DF9AEF /* UIMaltiTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41976681BB565D700DF9AEF /* UIMaltiTouchView.m */; settings = {ASSET_TAGS = (); }; };
+		F41976691BB565D700DF9AEF /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41976681BB565D700DF9AEF /* DrawView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,8 @@
 		F41976351BB55A3600DF9AEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F41976371BB55A3600DF9AEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F41976381BB55A3600DF9AEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F419763A1BB55A3600DF9AEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F419763B1BB55A3600DF9AEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F419763A1BB55A3600DF9AEF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F419763B1BB55A3600DF9AEF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F419763E1BB55A3600DF9AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F41976401BB55A3600DF9AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41976431BB55A3600DF9AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 		F41976551BB55A3600DF9AEF /* ThreeDimensionalTouchSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDimensionalTouchSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41976591BB55A3600DF9AEF /* ThreeDimensionalTouchSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeDimensionalTouchSampleUITests.m; sourceTree = "<group>"; };
 		F419765B1BB55A3600DF9AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F41976671BB565D700DF9AEF /* UIMaltiTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMaltiTouchView.h; sourceTree = "<group>"; };
-		F41976681BB565D700DF9AEF /* UIMaltiTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMaltiTouchView.m; sourceTree = "<group>"; };
+		F41976671BB565D700DF9AEF /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		F41976681BB565D700DF9AEF /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +106,10 @@
 			children = (
 				F41976371BB55A3600DF9AEF /* AppDelegate.h */,
 				F41976381BB55A3600DF9AEF /* AppDelegate.m */,
-				F419763A1BB55A3600DF9AEF /* ViewController.h */,
-				F419763B1BB55A3600DF9AEF /* ViewController.m */,
-				F41976671BB565D700DF9AEF /* UIMaltiTouchView.h */,
-				F41976681BB565D700DF9AEF /* UIMaltiTouchView.m */,
+				F419763A1BB55A3600DF9AEF /* MainViewController.h */,
+				F419763B1BB55A3600DF9AEF /* MainViewController.m */,
+				F41976671BB565D700DF9AEF /* DrawView.h */,
+				F41976681BB565D700DF9AEF /* DrawView.m */,
 				F419763D1BB55A3600DF9AEF /* Main.storyboard */,
 				F41976401BB55A3600DF9AEF /* Assets.xcassets */,
 				F41976421BB55A3600DF9AEF /* LaunchScreen.storyboard */,
@@ -275,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41976691BB565D700DF9AEF /* UIMaltiTouchView.m in Sources */,
-				F419763C1BB55A3600DF9AEF /* ViewController.m in Sources */,
+				F41976691BB565D700DF9AEF /* DrawView.m in Sources */,
+				F419763C1BB55A3600DF9AEF /* MainViewController.m in Sources */,
 				F41976391BB55A3600DF9AEF /* AppDelegate.m in Sources */,
 				F41976361BB55A3600DF9AEF /* main.m in Sources */,
 			);
@@ -504,6 +504,7 @@
 				F41976601BB55A3600DF9AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F41976611BB55A3600DF9AEF /* Build configuration list for PBXNativeTarget "ThreeDimensionalTouchSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				F41976631BB55A3600DF9AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F41976641BB55A3600DF9AEF /* Build configuration list for PBXNativeTarget "ThreeDimensionalTouchSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				F41976661BB55A3600DF9AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

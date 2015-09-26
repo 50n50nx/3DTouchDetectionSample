@@ -5,7 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIMaltiTouchView : UIView
+@interface DrawView : UIView
 
 @property (strong, nonatomic) UIEvent *currentEvent;
 

@@ -3,19 +3,19 @@
 //  ThreeDimensionalTouchSample
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-#import "UIMaltiTouchView.h"
+#import "DrawView.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
-@property (weak, nonatomic) IBOutlet UIMaltiTouchView *touchAnimationView;
+@property (weak, nonatomic) IBOutlet DrawView *touchAnimationView;
 
 @property (weak, nonatomic) IBOutlet UILabel *forceValueLabel;
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
